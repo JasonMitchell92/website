@@ -1,0 +1,192 @@
+/* Large Devices Styles Starts */
+
+@media (min-width: 1200px) {
+
+/* Navigation Styles Starts */
+
+	#nav .dropdown:hover .dropdown-menu {
+		display: block;
+	}
+	
+}
+
+/* Medium Devices Styles Starts */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+/* Navigation Styles Starts */
+
+	#nav .dropdown:hover .dropdown-menu {
+		display: block;
+	}
+	
+/* Portfolio Page Styles Starts */
+		
+	ul#gallery-grid.col2 li {
+		min-height: 460px;
+		height: auto !important;
+		height: 460px;
+	}
+
+}
+
+/* Small Devices Styles Starts */
+
+@media (min-width: 768px) and (max-width: 991px) {
+	
+/* Top Bar Styles Starts */
+
+	.top-bar ul.pull-left, 
+	.top-bar ul.pull-right {
+		float: none !important;
+		text-align: center;
+	}
+	
+/* Navigation Styles Starts */
+
+	#nav .dropdown:hover .dropdown-menu {
+		display: block;
+	}	
+	
+/* Slider Styles Starts */
+
+	.camera_wrap h1 {
+		font-size: 40px;
+	}
+		.camera_caption {
+			width: 60%;
+			bottom: 40px !important;
+		}
+	
+/* Welcome Section Styles Starts */
+
+	.welcome-box .img-responsive {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+/* Portfolio Page Styles Starts */
+
+	ul#gallery-filter, 
+	ul#gallery-grid {
+		text-align: center;
+	}
+		ul#gallery-grid li .img-responsive {
+			margin-left: auto;
+			margin-right: auto;
+		}	
+		
+/* Genric Styles Starts */	
+	
+	.text-center-sm {
+		text-align: center;
+	}
+	.img-center-sm {
+		margin-left: auto;
+		margin-right: auto;
+	}		
+	
+}
+
+/* Extra Small Devices Styles Starts */
+
+@media (max-width: 767px) {
+
+/* Navigation Styles Starts */
+
+	.navbar-toggle {
+		margin-top: 35px;
+	}
+	
+/* Welcome Section Styles Starts */
+
+	.welcome-box .img-responsive {
+		margin-left: auto;
+		margin-right: auto;
+	}	
+	
+/* Testimonials Page Styles Starts */
+
+.testimonial-box + .testimonial-box {
+	margin-top: 40px;
+	padding-top: 40px;
+	border-top: 1px solid #b3b3b3;	
+}
+	.testimonial-box .media-right {
+	}
+	.testimonial-box .media-right, 
+	.testimonial-box .media > .pull-right {
+		padding-left: 0;
+	}
+	.testimonial-box .img-responsive {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.testimonial-box .media-left, 
+	.testimonial-box .media-right, 
+	.testimonial-box .media-body {
+		display: block;
+	}
+	
+/* Portfolio Page Styles Starts */
+
+	ul#gallery-filter, 
+	ul#gallery-grid {
+		text-align: center;
+	}
+		ul#gallery-filter li {
+			padding: 0;
+		}		
+		ul#gallery-filter li + li {
+			padding-left: 0;
+		}
+		ul#gallery-filter li a {
+			padding: 15px;
+			font-size: 18px;
+		}
+		ul#gallery-grid li .img-responsive {
+			margin-left: auto;
+			margin-right: auto;
+		}
+		ul#gallery-grid.col2 li {
+			min-height: 390px;
+			height: auto !important;
+			height: 390px;
+		}
+		ul#gallery-grid.col3 li {
+			min-height: 356px;
+			height: auto !important;
+			height: 356px;
+		}
+	
+/* Contact Page Styles Starts */
+
+	.address-list .pull-left {
+		margin: 0 0 10px;
+		float: none !important;
+		display: block;
+	}
+	
+/* Footer Styles Starts */
+
+	.foot-column {
+		margin-bottom: 0;
+		text-align: center;
+		border: none;
+		min-height: 0;
+	}
+	.foot-column.last {
+		margin-bottom: 40px;
+	}
+	
+/* Genric Styles Starts */	
+	
+	.text-center-xs {
+		text-align: center;
+	}
+	.img-center-xs {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+}
