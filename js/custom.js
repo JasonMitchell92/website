@@ -93,7 +93,7 @@ $(function() {
 	function initialize($) {
 		var mapOptions = {	
 			zoom: 8,
-			center: new google.maps.LatLng(17.421306, 78.457553),
+			center: new google.maps.LatLng(36.1627, 86.7816),
 			disableDefaultUI: true
 		};
 		var map = new google.maps.Map(document.querySelector('.map'), mapOptions);
