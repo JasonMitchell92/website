@@ -93,8 +93,6 @@ $(function() {
 	function initialize($) {
 		var mapOptions = {	
 			zoom: 8,
-			draggable: false,
-			scrollwheel: false,
 			center: new google.maps.LatLng(-36.1627, 86.7816),
 			disableDefaultUI: true
 		};
