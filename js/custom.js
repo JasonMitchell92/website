@@ -90,10 +90,11 @@ $(function() {
 	});
 	
 	// GOOGLE MAP
-	function initMap($) {
+	function initialize($) {
 		var map = new google.maps.Map(document.querySelector('.map'), {
 			zoom: 8,
-			center: new google.maps.LatLng(-36.1627, 86.7816),
+			draggable: false,
+			center: new google.maps.LatLng(36.1627, -86.7816),
 			disableDefaultUI: true
 		})
 	}
