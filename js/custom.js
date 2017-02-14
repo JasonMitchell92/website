@@ -90,14 +90,16 @@ $(function() {
 	});
 	
 	// GOOGLE MAP
+	var map
 	function initialize($) {
-		var mapOptions = {	
-			zoom: 8,
-			center: new google.maps.LatLng(36.1627, 86.7816),
-			disableDefaultUI: true
-		};
-		var map = new google.maps.Map(document.querySelector('.map'), mapOptions);
+		map = new google.maps.Map(document.getElementById('map'), {
+          		center: {lat: 36.1627, lng: 86.7816},
+          		zoom: 8
+        	});
+		
+		//var map = new google.maps.Map(document.querySelector('.map'), mapOptions);
 	}
-	google.maps.event.addDomListener(window, 'load', initialize);
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAVbHhT81tXZkpT7HqRbpyK9Ppif-G9V5Q&callback=initMap" async defer>
+	//google.maps.event.addDomListener(window, 'load', initialize);
 	
 });
