@@ -90,14 +90,13 @@ $(function() {
 	});
 	
 	// GOOGLE MAP
-	function initialize($) {
-		var mapOptions = {	
+	function initMap($) {
+		var map = new google.maps.Map(document.querySelector('.map'), {
 			zoom: 8,
 			center: new google.maps.LatLng(-36.1627, 86.7816),
 			disableDefaultUI: true
-		};
-		var map = new google.maps.Map(document.querySelector('.map'), mapOptions);
+		})
 	}
-	google.maps.event.addDomListener(window, 'load', initialize);
+	google.maps.event.addDomListener(window, 'load', initMap);
 	
 });
