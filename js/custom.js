@@ -99,7 +99,6 @@ $(function() {
 		
 		//var map = new google.maps.Map(document.querySelector('.map'), mapOptions);
 	}
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAVbHhT81tXZkpT7HqRbpyK9Ppif-G9V5Q&callback=initMap" async defer>
 	//google.maps.event.addDomListener(window, 'load', initialize);
 	
 });
