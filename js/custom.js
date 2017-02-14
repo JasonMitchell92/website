@@ -92,9 +92,10 @@ $(function() {
 	// GOOGLE MAP
 	function initialize($) {
 		var mapOptions = {	
-			center: new google.maps.LatLng(-36.1627, 86.7816),
 			zoom: 8,
 			draggable: false,
+			scrollwheel: false,
+			center: new google.maps.LatLng(-36.1627, 86.7816),
 			disableDefaultUI: true
 		};
 		var map = new google.maps.Map(document.querySelector('.map'), mapOptions);
